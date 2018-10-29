@@ -1,0 +1,33 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Oct 29 15:28:23 2018
+
+@author: charc
+"""
+
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the morganAndString function below.
+def morganAndString(a, b):
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    t = int(input())
+
+    for t_itr in range(t):
+        a = input()
+
+        b = input()
+
+        result = morganAndString(a, b)
+
+        fptr.write(result + '\n')
+
+    fptr.close()
